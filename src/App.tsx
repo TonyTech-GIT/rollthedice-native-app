@@ -116,8 +116,7 @@ export default function App() {
 
   return (
     <ImageBackground source={randomBg} style={[styles.container]}>
-      {/* <Text>Open up App.tsx to start working on your app!</Text> */}
-      <StatusBar style="auto" backgroundColor="#ddd" />
+      <StatusBar backgroundColor="#ddd" />
       <Dice imageUrl={diceImageOne} />
       <Dice imageUrl={diceImageTwo} />
 
