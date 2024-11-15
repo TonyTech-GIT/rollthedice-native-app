@@ -42,6 +42,8 @@ export default function App() {
 
   const [randomBg, setRandomBg] = useState<ImageSourcePropType>(bgOne);
 
+  const greet = "hello world";
+
   const generateDiceOne = () => {
     let randomNumber = Math.floor(Math.random() * 6) + 1;
 
